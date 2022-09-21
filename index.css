@@ -1,0 +1,354 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: rgb(175, 255, 244);
+}
+
+.main-content {
+  min-height: 100vh;
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section {
+  grid-column: span 2;
+  height: 100%;
+  background-color: rgb(0, 28, 110);
+}
+
+.right-section {
+  grid-column: span 5;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.left-content {
+  padding: 2rem 1rem;
+}
+
+.profile {
+  width: 100%;
+  border-bottom: 1px;
+}
+
+.profile img {
+  width: 90%;
+  border: 8px solid rgb(0, 28, 110);
+}
+
+.Name {
+  font-size: 1.65rem;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.career {
+  text-align: center;
+  color: white;
+}
+
+.contact-title {
+  color: rgb(175, 255, 244);
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.contact-info ul li {
+  display: flex;
+  padding: 0.4rem 2rem;
+  text-align: inherit;
+  color: rgb(182, 208, 255);
+}
+
+.contact-info ul li i {
+  padding-right: 0.9rem;
+  font-size: 1;
+  color: rgb(112, 145, 255);
+}
+
+.progress-bar {
+  width: 100%;
+  height: 0.4rem;
+  background-color: rgba(211, 211, 211, 0.671);
+  position: relative;
+}
+
+.progress {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: rgb(67, 202, 255);
+}
+
+.js-progress {
+  width: 40%;
+}
+
+.java-progress {
+  width: 50%;
+}
+
+.python-progress {
+  width: 90%;
+}
+
+.C-progress {
+  width: 90%;
+}
+
+.Cpp-progress {
+  width: 90%;
+}
+
+.html-progress {
+  width: 85%;
+}
+
+.react-progress {
+  width: 50%;
+}
+
+.dart-progress {
+  width: 40%;
+}
+
+.next-progress {
+  width: 50%;
+}
+
+.skill-title {
+  padding: 1rem 1rem;
+  font-size: 1.4rem;
+  color: rgb(175, 255, 244);
+}
+
+.skill-li {
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+.Language-title {
+  color: rgba(212, 212, 212, 0.795);
+}
+
+.lang-title {
+  padding: 1rem 1rem;
+  font-size: 1.4rem;
+  color: rgb(175, 255, 244);
+}
+
+.lang-list {
+  color: rgba(212, 212, 212, 0.795);
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+.interest-title {
+  padding: 1rem 1rem;
+  font-size: 1.4rem;
+  color: rgb(175, 255, 244);
+}
+
+.interest-list {
+  color: rgba(212, 212, 212, 0.795);
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+.refree {
+  padding-top: 1rem;
+}
+
+.refree-title {
+  color: rgb(175, 255, 244);
+  padding: 1rem 1rem;
+  font-size: 1.4rem;
+}
+
+.refree-name {
+  color: rgb(182, 208, 255);
+}
+
+.refree-pos {
+  color: rgb(182, 208, 255);
+  padding-bottom: 1rem;
+}
+
+.refree ul li {
+  color: rgb(182, 208, 255);
+
+  text-align: left;
+}
+
+.refree ul li i {
+  padding-right: 0.9rem;
+  font-size: 1;
+  color: rgb(112, 145, 255);
+}
+
+.right-content {
+  padding: 1rem 1.5rem;
+}
+
+.about-title {
+  color: rgb(62, 200, 255);
+  padding-top: 2rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.about-title::after {
+  top: 76%;
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 0.2rem;
+  background: rgb(62, 200, 255);
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.about-content {
+  padding: 1rem 2rem;
+}
+
+.edu-title {
+  padding-top: 1rem;
+  color: rgb(62, 200, 255);
+  position: relative;
+  text-transform: uppercase;
+}
+
+.edu-title::after {
+  top: 65%;
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 0.2rem;
+  background: rgb(62, 200, 255);
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.p-school {
+  padding-top: 2rem;
+  top: 1rem;
+  text-transform: uppercase;
+}
+
+.s-school {
+  text-transform: uppercase;
+  padding-top: 2rem;
+}
+
+.uni {
+  text-transform: uppercase;
+  padding-top: 2rem;
+}
+
+.tl-marks-1 {
+  margin-top: 2rem;
+  letter-spacing: 1px;
+  padding-left: 1rem;
+  border-left: 1px solid rgb(62, 200, 255);
+  position: relative;
+}
+
+.tl-marks-2 {
+  padding-top: 2.8rem;
+  letter-spacing: 1px;
+  padding-left: 1rem;
+  border-left: 1px solid rgb(62, 200, 255);
+  position: relative;
+}
+
+.tl-marks-3 {
+  padding-left: 1rem;
+  letter-spacing: 1px;
+  padding-top: 3.5rem;
+  border-left: 1px solid rgb(62, 200, 255);
+  position: relative;
+}
+
+.tl-marks-1::before {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: rgb(62, 200, 255);
+  left: -8px;
+}
+
+.tl-marks-2::before {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: rgb(62, 200, 255);
+  left: -8px;
+}
+
+.tl-marks-3::before {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: rgb(62, 200, 255);
+  left: -8px;
+}
+
+.project {
+  padding-top: 2rem;
+}
+
+.project-title {
+  padding-top: 1rem;
+  color: rgb(62, 200, 255);
+  position: relative;
+  text-transform: uppercase;
+}
+
+.project-title::after {
+  top: 65%;
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 0.2rem;
+  background: rgb(62, 200, 255);
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.project-1 {
+  padding: 1rem 0rem;
+}
+
+.project-2 {
+  padding: 1rem 0rem;
+}
+
+.project-3 {
+  padding: 1rem 0rem;
+}
+
+.project-4 {
+  padding: 1rem 0rem;
+}
